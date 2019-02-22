@@ -1,0 +1,14 @@
+{
+  "name": "jwt-verify",
+  "version": "1.0.0",
+  "description": "Simple check to see if jwt signatures are correct",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jwa": "^1.3.0"
+  }
+}
