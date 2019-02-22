@@ -1,8 +1,18 @@
-### JWA verify JWT Signatures
+## JWA verify JWT Signatures
 
-Drop your private/public pem files in the keys folder
+Simple script to verify that `PEM` files are valid pairs and can be used by `jwa` for `jwt` signatures. 
+
+### Getting Started
+
+Drop your `private.pem` & `public.pem` files in the keys folder
 
 Run:
 
-`npm i`
-`node index.js`
+```
+npm i
+node index.js
+```
+
+### Warning
+
+Do not commit your private/public keys to any git repo. Make sure they are excluded by the .gitignore (already ignores .pem files in the keys directory)
